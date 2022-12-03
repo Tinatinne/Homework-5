@@ -104,10 +104,58 @@ li {
     width: 770px;
     height: 20px;
     font-weight: bold;
+    margin-top: 58px;
+    margin-bottom: 40px;
 }
+
+.images-2 {
+    width: 760px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    /* margin-right: 20px; */
+}
+.bridge {
+    width: 760px;
+    height: 430px;
+    margin-bottom: 40px;
+}
+
+.elephant {
+    width: 360px;
+    height: 210px;
+    margin-bottom: 100px;
+}
+.bird {
+    width: 360px;
+    height: 210px;
+    margin-bottom: 100px;
+}
+
+.road {
+    width: 360px;
+    height: 210px;
+    margin-bottom: 40px;
+}
+.images-3 {
+    width: 360px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+}
+.photos-direction {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+
+
+/* footer */
+
 .footer-size {
-    top: 1540px;
-    left: 0px;
     width: 1440px;
     height: 200px;
     background-color: #A6ADB4;
@@ -143,10 +191,31 @@ li {
     padding-top: 62px;
 }
 .images-style {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 24px;
     width: 16px;
     height: 16px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: flex-end;
+  
    
+}
+.text-details  {
+    color: #CBD0D3;
+    width: 243px;
+    height: 9px;
+}
+.merge-container {
+    display: flex;
+    justify-content: space-between;
+}
+.text-align {
+    display: flex;
+    justify-content: space-between;
+}
+.icons {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
 }
