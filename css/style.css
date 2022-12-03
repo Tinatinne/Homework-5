@@ -1,0 +1,152 @@
+
+body {
+    width: 1440px;
+    background: #F6F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+header {
+    position: sticky;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    background: #F6F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+ul {
+    display: flex;
+}
+
+.first-li {
+    margin-right: 60px;
+    color: #FA6980;
+}
+
+li {
+    margin-right: 25px;
+}
+
+.image1 {
+    width: 31px;
+    height: 26px;
+
+}
+
+.title {
+    margin: 25px 140px;
+    color: #343638;
+    font-weight: bold;
+    height: 20px;
+    width: 1025px;
+
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 360px;
+    height: 420px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.img-container {
+    position: relative;
+    width: 360px;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 10px;
+    left: 20px;}
+
+.active-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrap {
+    width: 280px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+
+.minute {
+    margin-left: 8px;
+}
+
+
+
+.img-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.title2 {
+    top: 543px;
+    margin-left: 140px;
+    width: 770px;
+    height: 20px;
+    font-weight: bold;
+}
+.footer-size {
+    top: 1540px;
+    left: 0px;
+    width: 1440px;
+    height: 200px;
+    background-color: #A6ADB4;
+}
+.logo-details {
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #CBD0D3;
+    
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.container2 {
+    width: 487px;
+    height: 84px;
+    margin-left: 142px;
+    padding-top: 62px;
+}
+.container3 {
+    width: 812px;
+    height: 84px;
+    /* margin-left: 142px; */
+    padding-top: 62px;
+}
+.images-style {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+    width: 16px;
+    height: 16px;
+   
+}
