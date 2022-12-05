@@ -17,6 +17,7 @@ header {
 
 ul {
     display: flex;
+    align-items: center;
 }
 
 .first-li {
@@ -66,7 +67,8 @@ li {
 .position-absolute {
     position: absolute;
     top: 10px;
-    left: 20px;}
+    left: 20px;
+}
 
 .active-time {
     display: flex;
@@ -110,7 +112,7 @@ li {
 
 .images-2 {
     width: 760px;
-    height: 430px;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin-left: 140px;
@@ -197,9 +199,8 @@ li {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     align-content: flex-end;
-  
-   
 }
+
 .text-details  {
     color: #CBD0D3;
     width: 243px;
@@ -213,9 +214,17 @@ li {
     display: flex;
     justify-content: space-between;
 }
+
+.info-text {
+    margin-left: 157px;
+}
 .icons {
     width: 16px;
     height: 16px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-right: 50px;
+
 }
